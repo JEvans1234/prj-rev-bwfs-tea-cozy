@@ -1,0 +1,303 @@
+body{
+  width: 100%;
+  background-color: black;
+}
+header{
+  top: 0;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-color: black;
+  z-index: 5;
+}
+img{
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 850px;
+  opacity: 0.9;
+}
+nav a{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  padding-left: 30px;
+}
+
+/* mission */
+
+main{
+  height: 100%;
+  width: 100%;
+}
+#topImg{
+  position: relative;
+  top: 60px;
+  width: 1200px;
+  height: 700px;
+  background-image: url('../../resources/img-mission-background.jpg');
+  margin: 0 auto;
+}
+#text{
+  position: relative;
+  top: 320px;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+}
+#text h2 {
+  margin: 0;
+  font-size: 30px;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+#text h4{
+  margin: 0;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+/* Tea */
+
+#tea{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 200px;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+}
+#tea h2{
+  margin: 0;
+  font-size: 35px;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+#tea h4{
+  margin: 0;
+  font-size: 22px;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+#preview{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+#containerTop{
+  display: table;
+  margin: 0 auto;
+  background-color: black;
+  width: 1000px;
+  height: 250px;
+}
+#containerBtm{
+  margin: 0 auto;
+  background-color: black;
+  width: 1000px;
+  height: 250px;
+}
+.box{
+  margin-top: 25px;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-color: none;
+}
+#blitz,#rum,#donuts,#bizarre{
+  margin-left: 25px;
+}
+#ave{
+  margin-left: 187.5px;
+}
+#blitz{
+  background-image: url('../../resources/img-berryblitz.jpg');
+  background-size: cover;
+}
+#rum{
+  background-image: url('../../resources/img-spiced-rum.jpg');
+  background-size: cover;
+}
+#donuts{
+  background-image: url('../../resources/img-donut.jpg');
+  background-size: cover;
+}
+#ave{
+  background-image: url('../../resources/img-myrtle-ave.jpg');
+  background-size: cover;
+}
+#bizarre{
+  background-image: url('../../resources/img-bedford-bizarre.jpg');
+  background-size: cover;
+}
+#blitzTxt{
+  position: absolute;
+  margin: 10px 75px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+#rumTxt{
+  position: absolute;
+  margin: 10px 420px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+#donutsTxt{
+  position: absolute;
+  margin: 10px 735px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+#aveTxt{
+  position: absolute;
+  margin: 10px 260px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+#bizarreTxt{
+  position: absolute;
+  margin: 10px 560px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+/* Locations */
+
+#locations{
+  margin: 75px auto;
+  width: 1200px;
+  height: 575px;
+  background-image: url('../../resources/img-locations-background.jpg');
+  background-size: cover;
+}
+#locations h1{
+  text-align: center;
+  font-size: 35px;
+  font-family: Helvetica;
+  color: seashell;
+  padding-top: 72.5px;
+  margin: 0px;
+  opacity: 0.9;
+}
+#locationContainer{
+  height: 300px;
+  width: 1200px;
+  background-color: none;
+  padding-top: 15px;
+}
+.lctBox{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+#downtown{
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+#east,#oak{
+  display: block;
+  float: left;
+  margin-left: 40px;
+}
+#downtown h3{
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+#downtown p{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  line-height: 60px;
+  opacity: 0.9;
+}
+#east h3{
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+#east p{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  line-height: 60px;
+  opacity: 0.9;
+}
+#oak h3{
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+#oak p{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  line-height: 60px;
+  opacity: 0.9;
+}
+
+/* Footer */
+
+#footer{
+  display: block;
+  position: relative;
+  top: 650px;
+  text-align: center;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  line-height: 15px;
+  width: 100%;
+  height: 200px;
+}
+#footer h2{
+  padding-top: 20px;
+  opacity: 0.9;
+}
+#footer h5{
+  opacity: 0.9;
+}
+#footer span{
+  text-align: left;
+  opacity: 0.9;
+}
